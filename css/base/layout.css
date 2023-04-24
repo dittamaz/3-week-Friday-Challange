@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    padding: 20px 60px;
+
+    display: flex;
+    width: 800px;
+    margin: 0 calc((100% - 800px) / 2);
+    object-fit: contain;
+    object-position: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > .row {
+    display: flex; 
+}
+
+        
+.container .column {
+    width: 50%;
+}
+
+.column .right-column {
+    width: 40%;
+}
+.main-title {
+    font-size: 30px;
+    color: #fff;
+}
+
+.main-title > span {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.description {
+    color: #fff;
+}

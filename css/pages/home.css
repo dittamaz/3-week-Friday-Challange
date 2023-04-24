@@ -1,0 +1,21 @@
+@import '../base/layout.css';
+@import '../base/base.css';
+
+.logo {
+    width: 130px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+ }
+
+ .link:hover {
+    text-decoration: underline;
+ }
