@@ -2,20 +2,40 @@
 @import '../base/base.css';
 
 .logo {
-    width: 130px;
+    width: 187px;
 }
 
 .main-nav {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .link {
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
  }
 
  .link:hover {
     text-decoration: underline;
  }
+
+ 
+.botton {
+    display: inline-block;
+    padding: 8px 40px;
+    line-height: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 5px;
+    user-select: none;
+}
+.botton-explore {
+    background-color: #fff;
+    color: black;
+}
+
+.botton-learn-more {
+    background-color: black;
+    color: #fff;
+}

@@ -1,38 +1,83 @@
 .container {
     width: 100%;
-    padding: 20px 60px;
+    padding: 30px 0;
 
+.container > .row {
     display: flex;
-    width: 800px;
-    margin: 0 calc((100% - 800px) / 2);
-    object-fit: contain;
-    object-position: left;
+    width: 1180px;
+    margin: 30px calc((100% - 1180px) / 2);
     justify-content: space-between;
     align-items: center;
 }
 
-.container > .row {
-    display: flex; 
+.container > .row-short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 1150px;
+    margin: 0 calc((50% - 1150px) / 2);
+}
+   
+.partner-logo {
+    width: 100%;
 }
 
-        
-.container .column {
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column .talent {
+    border: 1px;
+    padding: 10px;
+    box-shadow: 5px 7px gainsboro;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 30%;
+    gap: 30px;
+}
+
+.column-img {
     width: 50%;
 }
-
-.column .right-column {
-    width: 40%;
-}
 .main-title {
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
 }
 
 .main-title > span {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
+    letter-spacing: 8px;
+    padding: 10px;
 }
-.description {
+
+.main-description {
+    font-size: 15px;
     color: #fff;
+}
+
+.second-title {
+    font-size: 35px;
+    color: black;
+}
+
+.second-title > span {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding: 10px;
+}
+.second-description {
+    font-size: 15px;
+    color: black;
 }
